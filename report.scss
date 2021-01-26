@@ -44,6 +44,9 @@ $URL: 'https://docs.pfb.brussels';
 
 
 @page {
+  font-family: "Hiragino Sans";
+  font-weight: 100;
+
   @top-left {
     background: $bgColor;
     content: counter(page);
@@ -200,7 +203,7 @@ html {
     }
   }
   color: #393939;
-  font-family: Fira Sans, helvetica, arial;
+  font-family: "Hiragino Sans, helvetica, arial";
   font-size: 11pt;
   font-weight: 300;
   line-height: 1.5;
